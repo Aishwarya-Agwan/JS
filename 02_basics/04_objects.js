@@ -43,11 +43,33 @@ const users =  [
 ]
 
 users[1].email
-console.log(firstUser);
+// console.log(firstUser);
 
-console.log(Object.keys(firstUser));
-console.log(Object.values(firstUser));
-console.log(Object.entries(firstUser));
+// console.log(Object.keys(firstUser));
+// console.log(Object.values(firstUser));
+// console.log(Object.entries(firstUser));
 
-console.log(firstUser.hasOwnProperty('isLoggedIn'));
+// console.log(firstUser.hasOwnProperty('isLoggedIn'));
 
+const course = {
+    coursename: "javascript",
+    price : "999",
+    courseInstructor: "aish"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
